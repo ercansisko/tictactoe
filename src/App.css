@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(16, 16, 63);
+    color:white;
+}
+.title{
+    margin-top:100px;
+    text-align: center;
+}
+
+.border-color{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto 0;
+    position: relative;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:3px;
+    height: inherit;
+    
+}
+.grid-item{
+    background-color: rgb(16, 16, 63);
+    padding: 73px;
+    width: 165px;
+    height: 165px;
+}
+.disabled{
+    pointer-events: none;
+}
+hr{
+    visibility: hidden;
+}
+.winStick0{
+    border:3px solid rgb(216, 13, 13);
+    opacity: 0.5;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin-top:-418px;
+    visibility: visible;
+    }
+.winStick1{
+border:3px solid rgb(216, 13, 13);
+opacity: 0.5;
+position: absolute;
+left:0;
+right: 0;
+margin-top:-250px;
+visibility: visible;
+}
+.winStick2{
+    border:3px solid rgb(216, 13, 13);
+    opacity: 0.5;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin-top:-83px;
+    visibility: visible;
+}
+.winStick3{
+    border:3px solid rgb(216, 13, 13);
+    opacity: 0.5;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin-left:77px;
+    visibility: visible;
+    }
+
+.winStick4{
+border:3px solid rgb(216, 13, 13);
+opacity: 0.5;
+position: absolute;
+top:0;
+bottom: 0;
+margin-left:243px;
+visibility: visible;
+}
+.winStick5{
+    border:3px solid rgb(216, 13, 13);
+    opacity: 0.5;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin-left:411px;
+    visibility: visible;
+}
+.winStick6{
+    border:3px solid rgb(216, 13, 13);
+    opacity: 0.5;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin-top:-248px;
+    rotate: calc(45deg);
+    visibility: visible;
+}
+.winStick7{
+    border:3px solid rgb(216, 13, 13);
+    opacity: 0.5;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin-top:-250px;
+    rotate: calc(135deg);
+    visibility: visible;
+}
+.winner{
+    border:5px dotted blue;
+    width: 500px;
+    margin: 50px auto 0;
+    text-align: center;
+    padding:5px 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+button{
+    display: block;
+    width: 500px;
+    margin:50px auto 0;
+    background-color: rgb(44, 89, 172);
+    border-style: none;
+    border:1px solid inherit;
+    border-radius: 5px;
+    padding: 5px;
+    color:white;
+}
